@@ -20,4 +20,4 @@
 > for some bs reason, dia tak nak ambik asset dari folder `asset`
 
 masalah ni ade kat windows je, nak betul kan kene pakai visual studio (kalau korang sanggup nak download) atau CMAKE
-jadi nanti aku akan try implemnt cmake script nanti nanti. that`s that, this is this.
+jadi nanti aku akan try implement cmake script nanti nanti. that`s that, this is this.
