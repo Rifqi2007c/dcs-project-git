@@ -11,3 +11,9 @@
 - ### vscode (dalam vscode)
   - buka folder `dcs-project` dalam vscode (boleh drag n drop)
   - edit `task.json` tukar "rifqi" jadi nama kau ikut dalam `Users\<user>` atau buka powershell untuk tengok username
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/4.png) 
+
+> sebelum compile copy asset, paste ke `mingw64\bin`
+> for some bs reason, dia tak nak ambik asset dari folder `asset`
+masalah ni ade kan windows je, nak betul kan kene pakai visual studio (kalau korang sanggup nak download) atau CMAKE
+jadi nanti aku akan try implemnt cmake script nanti nanti. that`s that, this is this.
