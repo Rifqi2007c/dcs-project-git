@@ -26,6 +26,8 @@
 - letak `${workspaceFolder}/**` dan lokasi directory SFML/include dalam Include path
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml6.png)
 
+- run code untuk generate task.json dalam .vscode
+
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
 > for some bs reason, dia tak nak ambik asset dari folder `asset`
