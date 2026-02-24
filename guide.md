@@ -24,7 +24,7 @@
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml3.png)
 
 - letak `${workspaceFolder}/**` dan lokasi directory SFML/include dalam Include path
-
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml6.png)
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
