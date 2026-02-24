@@ -1,0 +1,1 @@
+Copy-Item -path "$HOME\dcs_project\asset" -Destination "C:\mingw64\bin" -Recurse -Force
