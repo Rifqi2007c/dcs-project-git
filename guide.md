@@ -52,8 +52,8 @@
  ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml9.png)
 
 
-> sebelum compile copy asset, paste ke `mingw64\bin`<p>
-> for some bs reason, dia tak nak ambik asset dari folder `asset`
+> sebelum compile **kali pertama**, copy asset paste ke `mingw64\bin` atau pakai script .ps1 yang aku buat (dalam terminal, type: `.\copytobin.ps1` )
+> tak tahu kenape, dia tak nak ambik asset dari folder `asset`
 
 masalah ni ade kat windows je, nak betul kan kene pakai visual studio (kalau korang sanggup nak download) atau CMAKE
-jadi nanti aku akan try implement cmake script nanti nanti. that`s that, this is this.
+jadi nanti mungkin aku akan try implement cmake script nanti nanti. that`s that and this is this.
