@@ -28,6 +28,8 @@
 
 - run code untuk generate task.json dalam .vscode
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml7.png)
+> kali pertama run code, vscode akan tanya nak guna debugger apa. pilih `C++ (GDB/LLDB)`
+> 
 > bila run code main sebelum ada task.json vscode akan bagi error. abort
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml8.png)
 
