@@ -1,5 +1,5 @@
 # Setup sfml project
-- ### vscode (luar vscode)
+- ### download dan setup
   - download sfml(MinGW 64-bit) dan compiler (MinGW 64-bit) dari sfml
 
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/3.png)
@@ -8,6 +8,10 @@
     - letak folder `dcs-project` dalam user directory. cth `Users\rifqi`
   - unzip sfml dengan compiler, letak dalam C: drive
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml2.png)
+
+- ### vscode
+- buka folder project ni dalam vscode
+- buka download c++ extention
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
 > for some bs reason, dia tak nak ambik asset dari folder `asset`
