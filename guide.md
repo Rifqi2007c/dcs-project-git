@@ -37,6 +37,7 @@
   - `-lsfml-graphics`
   - `-lsfml-window`
   - `lsfml-system`
+ ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml9.png)
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
