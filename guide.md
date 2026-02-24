@@ -29,6 +29,14 @@
 - run code untuk generate task.json dalam .vscode
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml7.png)
 > bila run code main sebelum ada task.json vscode akan bagi error. abort
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml8.png)
+
+- edit task.json. tambah:
+  - sfml/include
+  - sfml/lib
+  - `-lsfml-graphics`
+  - `-lsfml-window`
+  - `lsfml-system`
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
