@@ -6,12 +6,19 @@
   - downlaod repo ni
     - download zip atau pakai git: `git clone https://github.com/Rifqi2007c/dcs-project.git`
     - letak folder `dcs-project` dalam user directory. cth `Users\rifqi`
-  - unzip sfml dengan compiler, letak dalam C: drive
+  - unzip sfml dengan compiler, letak dalam C: `drive`
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml2.png)
 
 - ### vscode
-- buka folder project ni dalam vscode
-- buka download c++ extention
+- buka download C/C++ extention pack
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml4.png)
+
+- buka folder `dcs-project` dalam vscode
+- buka C/C++ configuration:
+  - buka command panel 
+    - tekan searh bar dan click `Show and run command` atau ctrl + shift + p
+  - pilih C/C++: Edit configuration (UI)
+
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
 > for some bs reason, dia tak nak ambik asset dari folder `asset`
