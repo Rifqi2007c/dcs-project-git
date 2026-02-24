@@ -27,6 +27,7 @@
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml6.png)
 
 - run code untuk generate task.json dalam .vscode
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml7.png)
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
