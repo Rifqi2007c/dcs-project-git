@@ -6,7 +6,7 @@
   - downlaod repo ni
     - download zip atau pakai git: `git clone https://github.com/Rifqi2007c/dcs-project.git`
     - letak folder `dcs-project` dalam user directory. cth `Users\rifqi`
-  - unzip sfml dengan compiler, letak dalam dcs-project folder
+  - unzip sfml dengan compiler, letak dalam C: drive
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
 > for some bs reason, dia tak nak ambik asset dari folder `asset`
