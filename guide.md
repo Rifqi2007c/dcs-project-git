@@ -18,6 +18,13 @@
   - buka command panel 
     - tekan searh bar dan click `Show and run command` atau ctrl + shift + p
   - pilih C/C++: Edit configuration (UI)
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml5.png)
+
+- letak lokasi directory compiler dalam Compiler path
+![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml3.png)
+
+- letak `${workspaceFolder}/**` dan lokasi directory SFML/include dalam Include path
+
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
