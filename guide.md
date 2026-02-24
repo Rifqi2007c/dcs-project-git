@@ -28,6 +28,7 @@
 
 - run code untuk generate task.json dalam .vscode
 ![alt text](https://github.com/Rifqi2007c/dcs-project/blob/main/readme-asset/sfml7.png)
+> bila run code main sebelum ada task.json vscode akan bagi error. abort
 
 
 > sebelum compile copy asset, paste ke `mingw64\bin`<p>
