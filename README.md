@@ -11,6 +11,13 @@ https://www.sfml-dev.org/
 - [x] fix input keyboard latency
 
 ### todo progress
-buatlah ape yang diperlukan untuk game ni
+- [ ] hitbox
+- [ ] enemy animation
+- [ ] player/enemy health
+- [ ] loose/win mechanic
+- [ ] main menu, pause
+- [ ] background sprite
 
-:3
+### todo after
+- [ ] more level
+- [ ] save player data
