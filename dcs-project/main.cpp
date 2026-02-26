@@ -164,6 +164,8 @@ int main()
             currentFrame = (currentFrame + 1) % 4; // Assuming 3 frames per animation
             player.setTextureRect(IntRect({currentFrame * frame_width, currentRow * frame_height}, {frame_width, frame_height}));
             animationClock.restart();
+        } if (!isMoving) {
+            player.setTextureRect(IntRect({0, 0}, {frame_width, frame_height}));
         }
         
         // sword stick to player
@@ -181,7 +183,7 @@ int main()
             swordClock.restart();
 
         } if (!isAttack) {
-            sword.setTextureRect(IntRect({0, 0,}, {sword_width, sword_height}));
+            sword.setTextureRect(IntRect({0, 0}, {sword_width, sword_height}));
           }
 
         // sword follow cursor location
