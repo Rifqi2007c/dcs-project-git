@@ -21,3 +21,7 @@ https://www.sfml-dev.org/
 ### todo after
 - [ ] more level
 - [ ] save player data
+
+### todo improment (optional)
+- animation
+  - buat sword animastion tamat seblum berhenti attack
