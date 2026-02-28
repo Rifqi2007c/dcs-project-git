@@ -84,12 +84,17 @@ int main()
     // Clock for deltaTime
     Clock dtClock;
 
+    // Pause bool
+    bool isPaused = false;
+
     // Start the game loop
     while (window.isOpen())
     {
         // deltaTime
         Time dtTime = dtClock.restart();
         float dt = dtTime.asSeconds();
+
+       
 
         // Process events
         while (const std::optional event = window.pollEvent())
@@ -98,14 +103,17 @@ int main()
           if (event->is<sf::Event::Closed>())
                 window.close();
 
-          //if (const auto* keyReleased = event->getIf<sf::Event::KeyReleased>()) {
-            //    if (keyReleased->scancode == sf::Keyboard::Scan::L) {
-              //    sword.setTextureRect({{0, 0}, {sword_width, sword_height}});
-                //}
-          //}
+          // Pause game when ESC is pressed
+          if (auto* keyPressed = event->getIf<sf::Event::KeyPressed>()) {
+            if (keyPressed->code == sf::Keyboard::Key::Escape) {
+                isPaused = !isPaused; 
+            }
+          }
         }
-        
-        // spwan logic
+
+        if (!isPaused) {
+
+            // spwan logic
         float spawnInterval = 3.0f;
         
         // spawn enemy at random place
@@ -184,7 +192,16 @@ int main()
 
         } if (!isAttack) {
             sword.setTextureRect(IntRect({0, 0}, {sword_width, sword_height}));
+            }
           }
+
+          //if (const auto* keyReleased = event->getIf<sf::Event::KeyReleased>()) {
+            //    if (keyReleased->scancode == sf::Keyboard::Scan::L) {
+              //    sword.setTextureRect({{0, 0}, {sword_width, sword_height}});
+                //}
+          //}
+        
+        
 
         // sword follow cursor location
         //Vector2i mousePos = Mouse::getPosition(window);
@@ -213,4 +230,5 @@ int main()
         // Update the window
         window.display();
     }
-}
+  }
+
