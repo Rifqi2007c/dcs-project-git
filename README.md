@@ -15,7 +15,7 @@ https://www.sfml-dev.org/
 - [ ] enemy animation
 - [ ] player/enemy health
 - [ ] loose/win mechanic
-- [ ] main menu, pause
+- [ ] main menu, ~~pause~~
 - [ ] background sprite
 
 ### todo after
