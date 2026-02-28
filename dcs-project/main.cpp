@@ -87,6 +87,27 @@ int main()
     // Pause bool
     bool isPaused = false;
 
+    //Pause Overlay and Text
+    sf::RectangleShape pauseOverlay;
+    pauseOverlay.setSize(sf::Vector2f(window.getSize()));
+    pauseOverlay.setFillColor(sf::Color(255, 255, 255, 150)); // Semi-transparent white
+
+    Font font;
+    if (!font.openFromFile("asset/arial.ttf")) { 
+        std::cerr << "Failed to load font!" << std::endl;
+        return -1;
+    }
+
+    Text pauseText(font);
+    pauseText.setString("Game Paused");
+    pauseText.setFont(font);
+    pauseText.setCharacterSize(50);
+    pauseText.setFillColor(sf::Color::Red);
+
+    FloatRect textBounds = pauseText.getLocalBounds();
+    pauseText.setOrigin({textBounds.position.x + textBounds.size.x / 2.f, textBounds.position.y + textBounds.size.y / 2.f});
+    pauseText.setPosition({window.getSize().x / 2.f, window.getSize().y / 2.f});
+
     // Start the game loop
     while (window.isOpen())
     {
@@ -103,7 +124,7 @@ int main()
           if (event->is<sf::Event::Closed>())
                 window.close();
 
-          // Pause game when ESC is pressed
+          // Pause game when Esc is pressed
           if (auto* keyPressed = event->getIf<sf::Event::KeyPressed>()) {
             if (keyPressed->code == sf::Keyboard::Key::Escape) {
                 isPaused = !isPaused; 
@@ -111,7 +132,7 @@ int main()
           }
         }
 
-        if (!isPaused) {
+          if (!isPaused) {
 
             // spwan logic
         float spawnInterval = 3.0f;
@@ -192,8 +213,9 @@ int main()
 
         } if (!isAttack) {
             sword.setTextureRect(IntRect({0, 0}, {sword_width, sword_height}));
-            }
           }
+
+        }
 
           //if (const auto* keyReleased = event->getIf<sf::Event::KeyReleased>()) {
             //    if (keyReleased->scancode == sf::Keyboard::Scan::L) {
@@ -224,6 +246,11 @@ int main()
             window.draw(enemy);
         }
 
+        if (isPaused) {
+            window.draw(pauseOverlay);
+            window.draw(pauseText);
+        }
+
         // Draw the string
         //window.draw(text);
  
@@ -231,4 +258,3 @@ int main()
         window.display();
     }
   }
-
