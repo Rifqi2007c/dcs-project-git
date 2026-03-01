@@ -514,7 +514,6 @@ int main()
                 restartText.setPosition({650.f, 550.f});
                 window.draw(restartText);
             }
-            // Update Logic
             if (gameState == PAUSED)
             {
                 window.draw(overlay);
@@ -578,3 +577,4 @@ int main()
 
     return 0;
 }
+
