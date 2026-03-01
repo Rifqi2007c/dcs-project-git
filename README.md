@@ -11,16 +11,16 @@ https://www.sfml-dev.org/
 - [x] fix input keyboard latency
 
 ### todo progress
-- [ ] hitbox
+- [x] hitbox
 - [ ] enemy animation
-- [ ] player/enemy health
-- [ ] loose/win mechanic
-- [ ] main menu, ~~pause~~
+- [x] player/enemy health
+- [x] loose/win mechanic
+- [x] main menu, ~~pause~~
 - [ ] background sprite
 
 ### todo after
-- [ ] more level
-- [ ] save player data
+- [x] more level
+- ~~[ ] save player data~~
 
 ### todo improment (optional)
 - animation
